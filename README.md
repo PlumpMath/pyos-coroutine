@@ -51,3 +51,18 @@
 ### Echo Server Example
 
 - `echogood.py`
+
+### Limitations
+
+- When working with coroutines, you can't write subroutine functions that yield. (suspend)
+- The yield statement can only be used to suspend a coroutine at the top-most level.
+- There is a solution
+    - it can only be done with the assistance of the task scheduler itself.
+    - You have to strictly stick to yield statements
+    - Involves a trick known as "trampolining"
+
+- `trampoline.py`
+- `pyos8.py`
+- `echoserver.py`
+- `sockwrap.py`
+- `echoserver2.py`
