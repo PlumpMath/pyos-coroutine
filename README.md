@@ -37,3 +37,17 @@
 ### Step 5: Task Management
 
 - `pyos5.py`
+- `pyos6.py` (Task Waiting)
+
+### Interlude: An Echo Server Attempt
+
+- `echobad.py`
+- block IO is undesirable
+
+### I/O Waiting
+
+- `pyos7.py` (Polling Task, Read/Write Syscalls)
+
+### Echo Server Example
+
+- `echogood.py`
