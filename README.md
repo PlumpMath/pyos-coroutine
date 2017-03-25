@@ -52,7 +52,7 @@
 
 - `echogood.py`
 
-### Limitations
+### Trampolining
 
 - When working with coroutines, you can't write subroutine functions that yield. (suspend)
 - The yield statement can only be used to suspend a coroutine at the top-most level.
@@ -66,3 +66,10 @@
 - `echoserver.py`
 - `sockwrap.py`
 - `echoserver2.py`
+
+### Future topics
+
+- Intertask communication
+- Handling of blocking operations (e.g., accessing database)
+- Coroutine multitasking and threads
+- Error handling
